@@ -1,0 +1,329 @@
+@import "nullstyle";
+
+.site {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+//---------header----------
+.header {
+    padding: 25px;
+    &__wrapper {
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+
+        nav {
+            ul {
+                display: flex;
+                li {
+                    padding: 0 15px;
+                    a {
+                        font-family: Mulish;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 23px;
+                        letter-spacing: -0.346154px;
+                        color: #111111;
+                    }
+                }
+            }
+        }
+    }
+
+    &__logo {
+    }
+
+    &__tittle {
+        margin-top: 100px;
+        h4 {
+            padding: 15px;
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 28px;
+            letter-spacing: -0.423077px;
+            color: #4a4ff2;
+        }
+    }
+
+    &__content {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        p {
+            padding: 15px;
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 60px;
+            color: #111111;
+            span {
+                color: #4a4ff2;
+            }
+        }
+    }
+
+    &__before {
+        position: relative;
+        display: flex;
+        text-align: center;
+        align-items: flex-end;
+        margin-right: 70px;
+        p {
+            padding: 20px 15px;
+            font-family: Mulish;
+            font-style: italic;
+            font-size: 18px;
+            line-height: 23px;
+            color: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+        ::before {
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 30px;
+            top: 160px;
+            background-color: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+    }
+}
+
+//---------Projects----------
+.projects {
+    margin-top: 170px;
+
+    &__wrapper {
+        padding: 25px;
+    }
+
+    &__gallery {
+    }
+
+    &__colums {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 16px;
+        img {
+            width: 100%;
+            padding: 8px 0;
+        }
+    }
+}
+
+.projects-group {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__title {
+        h5 {
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 38px;
+            color: #111111;
+        }
+    }
+
+    &__list {
+        padding: 20px;
+        display: flex;
+        li {
+            padding: 3px 35px;
+            font-family: Mulish;
+            font-size: 18px;
+            line-height: 23px;
+            color: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+    }
+
+    &__item1 {
+    }
+
+    &__item2 {
+    }
+}
+
+//-------awards--------
+
+.awards {
+    padding: 25px;
+    margin-top: 100px;
+    border-top: solid #d8d8d8 3px;
+
+    &__wrapper {
+    }
+}
+.awards-block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #d8d8d8 3px;
+
+    &__title {
+        h1 {
+            margin-right: 250px;
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 28px;
+            color: #111111;
+            padding: 5px 0;
+        }
+    }
+
+    &__subtitle {
+        h3 {
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            color: #111111;
+            padding: 12px;
+        }
+    }
+
+    &__h3-1 {
+        margin-bottom: 150px;
+    }
+
+    &__h3-2 {
+        margin-bottom: 150px;
+    }
+
+    &__text {
+        h6 {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #111111;
+            padding: 13px;
+        }
+        p {
+            font-family: Mulish;
+            font-size: 16px;
+            line-height: 26px;
+            color: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+            padding: 13px;
+            margin-bottom: 50px;
+        }
+    }
+
+    &__element1 {
+    }
+
+    &__element2 {
+    }
+
+    &__date {
+        font-family: Mulish;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+        color: #111111;
+        padding: 12px;
+    }
+}
+
+//-------details--------
+
+.details {
+    margin-top: 150px;
+    &__wrapper {
+        padding: 25px;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        width: 635/1280 * 100%;
+        h1 {
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 55px;
+            color: #111111;
+            padding: 12px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-family: Mulish;
+            font-size: 16px;
+            line-height: 26px;
+            color: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            padding: 12px;
+        }
+    }
+    &__list {
+        ul {
+        }
+        li {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-bottom: solid #d8d8d8 2px;
+        }
+
+        p {
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            color: #111111;
+            padding: 22px 15px;
+            
+        }
+        
+    }
+    &__grey {
+            padding: 22px 15px;
+            font-family: Mulish;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            color: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+}
+.details-body {
+    margin-top: 60px;
+		&__wrapper {
+            img{
+                width: 100%;
+            }
+		}
+}
+.details-footer {
+
+		&__wrapper {
+		}
+
+		&__gallery {
+		}
+
+		&__item {
+		}
+}
+
