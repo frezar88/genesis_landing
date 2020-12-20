@@ -85,6 +85,7 @@ h6 {
 
 /*--------------------*/
 .site {
+  overflow: hidden;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -401,4 +402,31 @@ h6 {
 
 .details-body__wrapper img {
   width: 100%;
+}
+
+.details-body__wrapper p {
+  padding: 15px;
+  margin-top: 45px;
+  font-family: Mulish;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.details-footer__wrapper {
+  margin-top: 45px;
+}
+
+.details-footer__wrapper img {
+  width: 100%;
+}
+
+.details-footer__gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
